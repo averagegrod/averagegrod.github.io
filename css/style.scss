@@ -1,0 +1,141 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+@include font-face("source-sans-pro", "/fonts/source-sans-pro/source-sans-pro-regular");
+body {
+  background: white;
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 150%;
+  position: relative;
+  cursor: default;
+}
+
+header {
+	
+	border-bottom: 1px solid #727272;
+	border-top: 3px solid black;
+	color: black;
+	& h1 {
+		font-weight: 400;
+	}
+}
+
+
+.latest{
+	@include outer-container(60%);
+	margin-top:20px;
+}
+
+.latestImage{
+	@include span-columns(4);
+	& img{
+		max-height: 100%;
+		max-width: 100%;
+	}
+}
+
+.latestPost{
+	overflow-y: scroll;
+	line-height:2em;
+	max-height: 350px;
+	@include span-columns(8);
+	@include omega();
+}
+
+.feed{
+	background-image: url("../img/pins/board.jpg");
+	padding-bottom: 50px;
+	min-height: 300px;
+	@include outer-container(100%);
+	& ul li.post:nth-child(even){
+		@include transform(rotate(2deg));
+	}
+	& ul li.post:nth-child(3n){
+		@include transform(rotate(-4deg));
+		position: relative;
+		top: 5px;
+	}
+	& ul li.post:nth-child(6n){
+		@include transform(rotate(4deg));
+		position: relative;
+		left: 3px;
+	}
+	& ul li.post:nth-child(5n){
+		@include transform(rotate(-2deg));
+	}
+	& ul li.post:nth-child(8n){
+		@include transform(rotate(-3deg));
+	}
+}
+
+ul.polaroids a {
+	@include span-columns(3);
+	background: #fff;
+	box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	margin-left: -20px;
+	margin-top: 20px;
+	padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+    @include transform(rotate(-2deg));
+}
+
+ul.polaroids{
+	& a:before{
+		position: absolute;
+		left: 50%;
+		top: -12%;
+		content: url("../img/pins/black.png");
+	}
+	& li:nth-child(even) :before{
+		content: url("../img/pins/green.png");
+	}
+	& li:nth-child(3n) :before{
+		content: url("../img/pins/blue.png");
+	}
+	& li:nth-child(4n) :before{
+		content: url("../img/pins/red.png");
+	}
+	& li:nth-child(7n) :before{
+		content: url("../img/pins/yellow.png");
+	}
+	& li:nth-child(8n) :before{
+		content: url("../img/pins/green.png");
+		@include transform(scaleX(-1));
+		left: 40%;
+	}
+	& li:nth-child(5n) :before{
+		@include transform(scaleX(-1));
+		left: 40%;
+	}
+	
+	
+		
+
+	& a:after {
+		color: #777777;
+	  	content: attr(title);
+		display: block;
+		font-family: 'Just Another Hand', cursive;
+		font-size: 2.5em;
+		margin-top:5px;
+	}
+}
+
+.post{
+	@include span-columns(3);
+	@include omega(4n);	
+	margin-top: 30px;
+}
+
+
+
+footer{
+	text-align: center;
+}

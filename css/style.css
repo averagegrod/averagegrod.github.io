@@ -1,0 +1,183 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+@font-face {
+  font-family: "source-sans-pro";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/source-sans-pro/source-sans-pro-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/source-sans-pro/source-sans-pro-regular.woff2") format("woff2"), url("/fonts/source-sans-pro/source-sans-pro-regular.woff") format("woff"), url("/fonts/source-sans-pro/source-sans-pro-regular.ttf") format("truetype"), url("/fonts/source-sans-pro/source-sans-pro-regular.svg#source-sans-pro") format("svg"); }
+body {
+  background: white;
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 150%;
+  position: relative;
+  cursor: default; }
+
+header {
+  border-bottom: 1px solid #727272;
+  border-top: 3px solid black;
+  color: black; }
+  header h1 {
+    font-weight: 400; }
+
+.latest {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px; }
+  .latest::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.latestImage {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .latestImage:last-child {
+    margin-right: 0; }
+  .latestImage img {
+    max-height: 100%;
+    max-width: 100%; }
+
+.latestPost {
+  overflow-y: scroll;
+  line-height: 2em;
+  max-height: 350px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  margin-right: 0; }
+  .latestPost:last-child {
+    margin-right: 0; }
+
+.feed {
+  background-image: url("../img/pins/board.jpg");
+  padding-bottom: 50px;
+  min-height: 300px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  .feed::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .feed ul li.post:nth-child(even) {
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    transform: rotate(2deg); }
+  .feed ul li.post:nth-child(3n) {
+    -webkit-transform: rotate(-4deg);
+    -moz-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    -o-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+    position: relative;
+    top: 5px; }
+  .feed ul li.post:nth-child(6n) {
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -o-transform: rotate(4deg);
+    transform: rotate(4deg);
+    position: relative;
+    left: 3px; }
+  .feed ul li.post:nth-child(5n) {
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+    transform: rotate(-2deg); }
+  .feed ul li.post:nth-child(8n) {
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg); }
+
+ul.polaroids a {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  background: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  margin-left: -20px;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  transform: rotate(-2deg); }
+  ul.polaroids a:last-child {
+    margin-right: 0; }
+
+ul.polaroids a:before {
+  position: absolute;
+  left: 50%;
+  top: -12%;
+  content: url("../img/pins/black.png"); }
+ul.polaroids li:nth-child(even) :before {
+  content: url("../img/pins/green.png"); }
+ul.polaroids li:nth-child(3n) :before {
+  content: url("../img/pins/blue.png"); }
+ul.polaroids li:nth-child(4n) :before {
+  content: url("../img/pins/red.png"); }
+ul.polaroids li:nth-child(7n) :before {
+  content: url("../img/pins/yellow.png"); }
+ul.polaroids li:nth-child(8n) :before {
+  content: url("../img/pins/green.png");
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+  left: 40%; }
+ul.polaroids li:nth-child(5n) :before {
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+  left: 40%; }
+ul.polaroids a:after {
+  color: #777777;
+  content: attr(title);
+  display: block;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 2.5em;
+  margin-top: 5px; }
+
+.post {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  margin-top: 30px; }
+  .post:last-child {
+    margin-right: 0; }
+  .post:nth-child(4n) {
+    margin-right: 0; }
+  .post:nth-child(4n+1) {
+    clear: left; }
+
+footer {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
