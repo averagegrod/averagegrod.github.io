@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>House Over the Hill</title>
-    <link>http://github.com/averagegrod/averagegrod.github.io/</link>
+    <link>http://averagegrod.github.io/</link>
     <description>Recent content on House Over the Hill</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Apr 2015 14:47:09 -0700</lastBuildDate>
-    <atom:link href="http://github.com/averagegrod/averagegrod.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://averagegrod.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>There will be cake!</title>
-      <link>http://github.com/averagegrod/averagegrod.github.io/post/HappyBirthday/</link>
+      <link>http://averagegrod.github.io/post/HappyBirthday/</link>
       <pubDate>Sat, 18 Apr 2015 14:47:09 -0700</pubDate>
       
-      <guid>http://github.com/averagegrod/averagegrod.github.io/post/HappyBirthday/</guid>
+      <guid>http://averagegrod.github.io/post/HappyBirthday/</guid>
       <description>&lt;p&gt;Another year.
 Another blog. At least thats how I seem to operate. Going in I&amp;rsquo;d always say that I&amp;rsquo;m more committed to my current project than my previous one but  ironically each blog lives a shorter life than it&amp;rsquo;s predecessor.&lt;/p&gt;
 
@@ -32,10 +32,10 @@ Another blog. At least thats how I seem to operate. Going in I&amp;rsquo;d alway
     
     <item>
       <title>todo</title>
-      <link>http://github.com/averagegrod/averagegrod.github.io/to-do/</link>
+      <link>http://averagegrod.github.io/to-do/</link>
       <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://github.com/averagegrod/averagegrod.github.io/to-do/</guid>
+      <guid>http://averagegrod.github.io/to-do/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Make this list better!&lt;/li&gt;
 &lt;li&gt;Make a better logo / title&lt;/li&gt;
