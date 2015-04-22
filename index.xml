@@ -30,5 +30,25 @@ Another blog. At least thats how I seem to operate. Going in I&amp;rsquo;d alway
 </description>
     </item>
     
+    <item>
+      <title>todo</title>
+      <link>http://github.com/averagegrod/averagegrod.github.io/to-do/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://github.com/averagegrod/averagegrod.github.io/to-do/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Make this list better!&lt;/li&gt;
+&lt;li&gt;Make a better logo / title&lt;/li&gt;
+&lt;li&gt;Move the static page list to the right or enlarge them&lt;/li&gt;
+&lt;li&gt;Add a top/bottom border to the pinboard&lt;/li&gt;
+&lt;li&gt;Update the footer&lt;/li&gt;
+&lt;li&gt;Add dialogue colors&lt;/li&gt;
+&lt;li&gt;Add an about page&lt;/li&gt;
+&lt;li&gt;Add a portfolio / resume page&lt;/li&gt;
+&lt;li&gt;Add wordcounts&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

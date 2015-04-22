@@ -1,6 +1,3 @@
-/themes/HotHill/static/css/.sass-cache/*
-/themes/HotHill/static/css/bourbon/*
-/themes/HotHill/static/css/neat/*
 /css/bourbon/*
 /css/neat/*
-desktop.ini
+/css/.sass-cache

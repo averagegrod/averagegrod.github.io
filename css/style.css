@@ -11,6 +11,7 @@ html {
   src: url("/fonts/source-sans-pro/source-sans-pro-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/source-sans-pro/source-sans-pro-regular.woff2") format("woff2"), url("/fonts/source-sans-pro/source-sans-pro-regular.woff") format("woff"), url("/fonts/source-sans-pro/source-sans-pro-regular.ttf") format("truetype"), url("/fonts/source-sans-pro/source-sans-pro-regular.svg#source-sans-pro") format("svg"); }
 body {
   background: white;
+  background-image: url("../img/brickwall.png");
   color: #222222;
   padding: 0;
   margin: 0;
@@ -32,20 +33,30 @@ header {
   max-width: 60%;
   margin-left: auto;
   margin-right: auto;
+  background-image: url("../img/linedpaper.png");
   margin-top: 20px; }
   .latest::after {
     clear: both;
     content: "";
     display: table; }
+  .latest h1 a, .latest a:visited {
+    color: black;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 1.5em;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-decoration: none; }
 
 .latestImage {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%; }
+  width: 31.76157%;
+  padding: 20px 0px 0px 20px; }
   .latestImage:last-child {
     margin-right: 0; }
   .latestImage img {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
     max-height: 100%;
     max-width: 100%; }
 
